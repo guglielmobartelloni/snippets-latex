@@ -66,10 +66,16 @@ snip.rv = stripped[0:i] + "\\frac{" + stripped[i+1:-1] + "}"
 `{$1}$0
 endsnippet
 
-snippet / "Fraction" iA
-\\frac{${VISUAL}}{$1}$0
-endsnippet
-
 snippet ,in "Integral" iA
 \\int_{$1}^{$2} $3 \,dt
 endsnippet
+
+snippet sieq "Sistema di equazioni" iA
+\\left\\{ \\begin{array}{cc}
+$1\\\\
+$2
+\\end{array}
+\\right
+$0
+endsnippet
+
