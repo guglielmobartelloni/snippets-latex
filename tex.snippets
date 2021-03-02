@@ -31,7 +31,7 @@ snippet square "^2" iA
 \\sqrt{$1}$0
 endsnippet
 
-snippet sc "^2" iA
+snippet qd "^2" iA
 ^2
 endsnippet
 
@@ -71,11 +71,12 @@ snippet ,in "Integral" iA
 endsnippet
 
 snippet sieq "Sistema di equazioni" iA
-\\left\\{ \\begin{array}{cc}
-$1\\\\
-$2
-\\end{array}
-\\right
+\\begin{equation}
+   \\begin{cases}
+   $1\\\\
+   $2
+   \\end{cases}
+\\end{equation}
 $0
 endsnippet
 
